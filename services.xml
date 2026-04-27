@@ -5,69 +5,84 @@
     <company>Арбористы TreeWorks</company>
     <url>https://tree-works.ru/</url>
 
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Арбористика и уход за деревьями</category>
+    </categories>
+
     <offers>
 
       <offer id="1">
-        <name>Спил и удаление деревьев</name>
-        <url>https://tree-works.ru/udalenie-derevev</url>
-        <price>от 3000</price>
+        <name>Спил сложных деревьев в Санкт-Петербурге и Ленинградской области</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price>3000</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <description>Профессиональное удаление деревьев любой сложности. Работаем в стеснённых условиях, рядом с домами и проводами. Используем промышленный альпинизм.</description>
+        <description>Безопасный спил и удаление деревьев любой сложности. Работаем рядом с домами, заборами, проводами и другими объектами. Используем промышленный альпинизм и профессиональное оборудование.</description>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
       </offer>
 
       <offer id="2">
-        <name>Обрезка и кронирование деревьев</name>
-        <url>https://tree-works.ru/obrezka-derevev</url>
-        <price>от 1500</price>
+        <name>Обрезка и формирование кроны деревьев</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+        <price>1500</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <description>Санитарная и формирующая обрезка деревьев. Улучшение здоровья дерева и безопасность участка.</description>
+        <description>Санитарная, формирующая и омолаживающая обрезка деревьев. Помогаем сохранить здоровье дерева, улучшить внешний вид кроны и снизить риск падения ветвей.</description>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
       </offer>
 
       <offer id="3">
-        <name>Удаление аварийных деревьев</name>
-        <url>https://tree-works.ru/avariynye-derevya</url>
-        <price>от 5000</price>
+        <name>Расчистка участков от деревьев, кустарника и поросли</name>
+        <url>https://tree-works.ru/raschistka-uchastkov</url>
+        <price>10000</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <description>Удаление опасных и аварийных деревьев с риском падения. Работаем аккуратно и безопасно.</description>
+        <description>Комплексная расчистка участка под строительство, благоустройство или дальнейшие работы. Удаляем деревья, кустарник, поросль, пни и порубочные остатки.</description>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
       </offer>
 
       <offer id="4">
         <name>Дробление и удаление пней</name>
         <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
-        <price>от 1000</price>
+        <price>1000</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <description>Фрезеровка пней без повреждения участка. Быстрое и аккуратное удаление.</description>
+        <description>Фрезеровка и удаление пней после спила дерева. Аккуратно измельчаем пень без сильного повреждения участка, газона и посадок.</description>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
       </offer>
 
       <offer id="5">
-        <name>Каблинг и укрепление деревьев</name>
-        <url>https://tree-works.ru/cabling</url>
-        <price>от 4000</price>
+        <name>Лечение и обработка деревьев от болезней и вредителей</name>
+        <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
+        <price>2000</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <description>Установка систем стабилизации деревьев (каблинг, брейсинг). Снижение риска падения.</description>
+        <description>Диагностика состояния деревьев, обработка от вредителей, профилактика болезней и восстановление ослабленных деревьев на участке.</description>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
       </offer>
 
       <offer id="6">
-        <name>Диагностика состояния деревьев</name>
-        <url>https://tree-works.ru/diagnostika-derevev</url>
-        <price>от 2000</price>
+        <name>Каблинг и укрепление деревьев</name>
+        <url>https://tree-works.ru/cabling</url>
+        <price>4500</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <description>Оценка состояния деревьев, выявление гнили и скрытых дефектов. Используем современные методы диагностики.</description>
+        <description>Установка систем стабилизации деревьев: каблинг, брейсинг и ветрозащита. Помогаем снизить риск разлома кроны и сохранить ценные деревья.</description>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
       </offer>
 
       <offer id="7">
-        <name>Расчистка участка от деревьев и кустарника</name>
-        <url>https://tree-works.ru/raschistka-uchastkov</url>
-        <price>от 10000</price>
+        <name>Оформление разрешительной документации на спил деревьев</name>
+        <url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url>
+        <price>5000</price>
         <currencyId>RUR</currencyId>
         <categoryId>1</categoryId>
-        <description>Комплексная расчистка участка: удаление деревьев, кустарников, поросли, пней и вывоз остатков.</description>
+        <description>Помощь в оформлении документов для законного спила, обрезки или вырубки деревьев. Консультация по порубочным билетам и согласованиям.</description>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
       </offer>
 
     </offers>
