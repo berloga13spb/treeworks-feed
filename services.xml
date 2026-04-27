@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <realty-feed xmlns="http://webmaster.yandex.ru/schemas/feed/realty/2010-06">
   <generation-date>2026-04-27T12:00:00+03:00</generation-date>
-
   <categories>
     <category id="1">Исполнитель</category>
     <category id="17" parentId="1">Хозяйство и уборка</category>
     <category id="29" parentId="1">Разное</category>
   </categories>
-
   <sets>
     <set id="treeworks-main">
       <name>Арбористы TreeWorks</name>
@@ -34,7 +32,6 @@
       <url>https://tree-works.ru/cabling</url>
     </set>
   </sets>
-
   <offers>
     <offer internal-id="tw-001">
       <name>Арбористы TreeWorks</name>
@@ -63,7 +60,6 @@
       <param name="Другая услуга исполнителя - 4">Расчистка участков</param>
       <sales_notes>Цена зависит от высоты, диаметра, сложности доступа и объема работ</sales_notes>
     </offer>
-
     <offer internal-id="tw-002">
       <name>Арбористы TreeWorks</name>
       <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
@@ -111,7 +107,6 @@
       <param name="Об исполнителе">Удаляем пни методом дробления. После работ участок можно готовить под газон, посадки или благоустройство.</param>
       <sales_notes>Цена зависит от диаметра пня и условий доступа</sales_notes>
     </offer>
-
     <offer internal-id="tw-004">
       <name>Арбористы TreeWorks</name>
       <url>https://tree-works.ru/raschistka-uchastkov</url>
@@ -135,7 +130,6 @@
       <param name="Об исполнителе">Выполняем комплексную расчистку участков: удаляем деревья, кустарник, поросль, пни и порубочные остатки.</param>
       <sales_notes>Цена рассчитывается по площади, объему работ и сложности доступа</sales_notes>
     </offer>
-
     <offer internal-id="tw-005">
       <name>Арбористы TreeWorks</name>
       <url>https://tree-works.ru/cabling</url>
@@ -159,6 +153,5 @@
       <param name="Об исполнителе">Подбираем и монтируем системы стабилизации деревьев после осмотра. Используем каблинг, брейсинг и другие методы укрепления.</param>
       <sales_notes>Цена указана за точку крепления без учета материалов</sales_notes>
     </offer>
-
   </offers>
 </realty-feed>
