@@ -4,16 +4,13 @@
     <name>TreeWorks</name>
     <company>Арбористы TreeWorks</company>
     <url>https://tree-works.ru/</url>
-
     <currencies>
       <currency id="RUR" rate="1"/>
     </currencies>
-
     <categories>
       <category id="1">Исполнитель</category>
       <category id="29" parentId="1">Разное</category>
     </categories>
-
     <sets>
       <set id="treeworks-main">
         <name>Арбористы TreeWorks</name>
@@ -48,9 +45,7 @@
         <url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url>
       </set>
     </sets>
-
     <offers>
-
       <offer id="tw-001">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/spil-derevev</url>
@@ -79,7 +74,6 @@
         <param name="Другая услуга исполнителя - 4">Расчистка участков</param>
         <sales_notes>Цена зависит от высоты, диаметра, сложности доступа и объема работ</sales_notes>
       </offer>
-
       <offer id="tw-002">
         <name>TreeWorks обрезка деревьев</name>
         <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
@@ -104,7 +98,6 @@
         <param name="Об исполнителе">Проводим санитарную, формирующую и корректирующую обрезку деревьев с учетом породы, сезона и состояния кроны.</param>
         <sales_notes>Цена зависит от размера дерева и объема обрезки</sales_notes>
       </offer>
-
       <offer id="tw-003">
         <name>TreeWorks дробление пней</name>
         <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
@@ -129,7 +122,6 @@
         <param name="Об исполнителе">Удаляем пни методом дробления. После работ участок можно готовить под газон, посадки или благоустройство.</param>
         <sales_notes>Цена зависит от диаметра пня и условий доступа</sales_notes>
       </offer>
-
       <offer id="tw-004">
         <name>TreeWorks расчистка участков</name>
         <url>https://tree-works.ru/raschistka-uchastkov</url>
@@ -154,7 +146,6 @@
         <param name="Об исполнителе">Комплексная расчистка участков: удаление деревьев, кустарника, поросли, пней и порубочных остатков.</param>
         <sales_notes>Цена рассчитывается по площади, объему работ и сложности доступа</sales_notes>
       </offer>
-
       <offer id="tw-005">
         <name>TreeWorks каблинг деревьев</name>
         <url>https://tree-works.ru/kabling</url>
@@ -179,7 +170,6 @@
         <param name="Об исполнителе">Подбираем и монтируем системы стабилизации деревьев после осмотра. Используем каблинг, брейсинг и другие методы укрепления.</param>
         <sales_notes>Цена указана за точку крепления без учета материалов</sales_notes>
       </offer>
-
       <offer id="tw-006">
         <name>TreeWorks лечение деревьев</name>
         <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
@@ -204,7 +194,6 @@
         <param name="Об исполнителе">Проводим осмотр, обработку и профилактику заболеваний деревьев с учетом состояния растения и особенностей участка.</param>
         <sales_notes>Стоимость зависит от вида обработки и состояния дерева</sales_notes>
       </offer>
-
       <offer id="tw-007">
         <name>TreeWorks документы на спил</name>
         <url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url>
@@ -229,7 +218,6 @@
         <param name="Об исполнителе">Консультируем по вопросам законного удаления деревьев и оформления разрешительной документации.</param>
         <sales_notes>Стоимость зависит от объема консультации и необходимых документов</sales_notes>
       </offer>
-
     </offers>
   </shop>
 </yml_catalog>
