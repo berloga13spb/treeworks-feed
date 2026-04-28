@@ -1,156 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<realty-feed xmlns="http://webmaster.yandex.ru/schemas/feed/realty/2010-06">
-  <generation-date>2026-04-27T12:00:00+03:00</generation-date>
-  <categories>
-    <category id="1">Исполнитель</category>
-    <category id="17" parentId="1">Хозяйство и уборка</category>
-    <category id="29" parentId="1">Разное</category>
-  </categories>
-  <sets>
-    <set id="treeworks-main">
-      <name>Арбористы TreeWorks</name>
-      <url>https://tree-works.ru/</url>
-    </set>
-    <set id="treeworks-spil">
-      <name>Спил и удаление деревьев</name>
-      <url>https://tree-works.ru/spil-derevev</url>
-    </set>
-    <set id="treeworks-obrezka">
-      <name>Обрезка и формирование кроны</name>
-      <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
-    </set>
-    <set id="treeworks-pni">
-      <name>Дробление и удаление пней</name>
-      <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
-    </set>
-    <set id="treeworks-raschistka">
-      <name>Расчистка участков</name>
-      <url>https://tree-works.ru/raschistka-uchastkov</url>
-    </set>
-    <set id="treeworks-cabling">
-      <name>Каблинг и укрепление деревьев</name>
-      <url>https://tree-works.ru/cabling</url>
-    </set>
-  </sets>
-  <offers>
-    <offer internal-id="tw-001">
-      <name>Арбористы TreeWorks</name>
-      <url>https://tree-works.ru/</url>
-      <price from="true">3000</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>29</categoryId>
-      <set-ids>treeworks-main,treeworks-spil</set-ids>
-      <picture>https://tree-works.ru/favicon.ico</picture>
-      <description>Спил и удаление деревьев в Санкт-Петербурге и Ленинградской области. Работаем в сложных условиях рядом с домами, заборами и проводами.</description>
-      <param name="Рейтинг">0</param>
-      <param name="Число отзывов">0</param>
-      <param name="Годы опыта">10</param>
-      <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-      <param name="Конверсия">1</param>
-      <param name="Ссылка на телефон">tel:+79657850055</param>
-      <param name="Ссылка на чат">https://t.me/Tree_Works</param>
-      <param name="Исполнитель проверен">true</param>
-      <param name="Организация">true</param>
-      <param name="Выполняется по адресу заказчика">true</param>
-      <param name="Бригада">true</param>
-      <param name="Об исполнителе">TreeWorks выполняет удаление, обрезку, диагностику и укрепление деревьев. Используем промышленный альпинизм и профессиональное оборудование.</param>
-      <param name="Другая услуга исполнителя - 1">Обрезка деревьев</param>
-      <param name="Другая услуга исполнителя - 2">Дробление пней</param>
-      <param name="Другая услуга исполнителя - 3">Каблинг деревьев</param>
-      <param name="Другая услуга исполнителя - 4">Расчистка участков</param>
-      <sales_notes>Цена зависит от высоты, диаметра, сложности доступа и объема работ</sales_notes>
-    </offer>
-    <offer internal-id="tw-002">
-      <name>Арбористы TreeWorks</name>
-      <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
-      <price from="true">1500</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>29</categoryId>
-      <set-ids>treeworks-main,treeworks-obrezka</set-ids>
-      <picture>https://tree-works.ru/favicon.ico</picture>
-      <description>Обрезка деревьев, санитарная обрезка и формирование кроны. Помогаем сохранить здоровье дерева и снизить риск падения сухих ветвей.</description>
-      <param name="Рейтинг">0</param>
-      <param name="Число отзывов">0</param>
-      <param name="Годы опыта">10</param>
-      <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-      <param name="Конверсия">1</param>
-      <param name="Ссылка на телефон">tel:+79657850055</param>
-      <param name="Ссылка на чат">https://t.me/Tree_Works</param>
-      <param name="Исполнитель проверен">true</param>
-      <param name="Организация">true</param>
-      <param name="Выполняется по адресу заказчика">true</param>
-      <param name="Бригада">true</param>
-      <param name="Об исполнителе">Проводим санитарную, формирующую и корректирующую обрезку деревьев с учетом породы, сезона и состояния кроны.</param>
-      <sales_notes>Цена зависит от размера дерева и объема обрезки</sales_notes>
-    </offer>
-    <offer internal-id="tw-003">
-      <name>Арбористы TreeWorks</name>
-      <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
-      <price from="true">1000</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>29</categoryId>
-      <set-ids>treeworks-main,treeworks-pni</set-ids>
-      <picture>https://tree-works.ru/favicon.ico</picture>
-      <description>Дробление и удаление пней после спила дерева. Фрезеровка пней помогает аккуратно освободить участок без крупной ямы и повреждения ландшафта.</description>
-      <param name="Рейтинг">0</param>
-      <param name="Число отзывов">0</param>
-      <param name="Годы опыта">10</param>
-      <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-      <param name="Конверсия">1</param>
-      <param name="Ссылка на телефон">tel:+79657850055</param>
-      <param name="Ссылка на чат">https://t.me/Tree_Works</param>
-      <param name="Исполнитель проверен">true</param>
-      <param name="Организация">true</param>
-      <param name="Выполняется по адресу заказчика">true</param>
-      <param name="Бригада">true</param>
-      <param name="Об исполнителе">Удаляем пни методом дробления. После работ участок можно готовить под газон, посадки или благоустройство.</param>
-      <sales_notes>Цена зависит от диаметра пня и условий доступа</sales_notes>
-    </offer>
-    <offer internal-id="tw-004">
-      <name>Арбористы TreeWorks</name>
-      <url>https://tree-works.ru/raschistka-uchastkov</url>
-      <price from="true">10000</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>29</categoryId>
-      <set-ids>treeworks-main,treeworks-raschistka</set-ids>
-      <picture>https://tree-works.ru/favicon.ico</picture>
-      <description>Расчистка участков от деревьев, кустарника, поросли и пней. Подготовка территории под строительство, забор, благоустройство или дальнейшие работы.</description>
-      <param name="Рейтинг">0</param>
-      <param name="Число отзывов">0</param>
-      <param name="Годы опыта">10</param>
-      <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-      <param name="Конверсия">1</param>
-      <param name="Ссылка на телефон">tel:+79657850055</param>
-      <param name="Ссылка на чат">https://t.me/Tree_Works</param>
-      <param name="Исполнитель проверен">true</param>
-      <param name="Организация">true</param>
-      <param name="Выполняется по адресу заказчика">true</param>
-      <param name="Бригада">true</param>
-      <param name="Об исполнителе">Выполняем комплексную расчистку участков: удаляем деревья, кустарник, поросль, пни и порубочные остатки.</param>
-      <sales_notes>Цена рассчитывается по площади, объему работ и сложности доступа</sales_notes>
-    </offer>
-    <offer internal-id="tw-005">
-      <name>Арбористы TreeWorks</name>
-      <url>https://tree-works.ru/cabling</url>
-      <price from="true">4500</price>
-      <currencyId>RUR</currencyId>
-      <categoryId>29</categoryId>
-      <set-ids>treeworks-main,treeworks-cabling</set-ids>
-      <picture>https://tree-works.ru/favicon.ico</picture>
-      <description>Каблинг, брейсинг и укрепление деревьев. Устанавливаем системы стабилизации, чтобы снизить риск разлома кроны и сохранить ценное дерево.</description>
-      <param name="Рейтинг">0</param>
-      <param name="Число отзывов">0</param>
-      <param name="Годы опыта">10</param>
-      <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-      <param name="Конверсия">1</param>
-      <param name="Ссылка на телефон">tel:+79657850055</param>
-      <param name="Ссылка на чат">https://t.me/Tree_Works</param>
-      <param name="Исполнитель проверен">true</param>
-      <param name="Организация">true</param>
-      <param name="Выполняется по адресу заказчика">true</param>
-      <param name="Бригада">true</param>
-      <param name="Об исполнителе">Подбираем и монтируем системы стабилизации деревьев после осмотра. Используем каблинг, брейсинг и другие методы укрепления.</param>
-      <sales_notes>Цена указана за точку крепления без учета материалов</sales_notes>
-    </offer>
-  </offers>
-</realty-feed>
+<yml_catalog date="2026-04-28 13:40">
+  <shop>
+    <name>TreeWorks</name>
+    <company>Арбористы TreeWorks</company>
+    <url>https://tree-works.ru/</url>
+
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Исполнитель</category>
+      <category id="29" parentId="1">Разное</category>
+    </categories>
+
+    <sets>
+      <set id="treeworks-main">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/</url>
+      </set>
+      <set id="treeworks-spil">
+        <name>Спил и удаление деревьев</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+      </set>
+      <set id="treeworks-obrezka">
+        <name>Обрезка деревьев</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+      </set>
+      <set id="treeworks-pni">
+        <name>Дробление и удаление пней</name>
+        <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
+      </set>
+      <set id="treeworks-raschistka">
+        <name>Расчистка участков</name>
+        <url>https://tree-works.ru/raschistka-uchastkov</url>
+      </set>
+      <set id="treeworks-kabling">
+        <name>Каблинг и укрепление деревьев</name>
+        <url>https://tree-works.ru/kabling</url>
+      </set>
+      <set id="treeworks-lechenie">
+        <name>Лечение и обработка деревьев</name>
+        <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
+      </set>
+      <set id="treeworks-docs">
+        <name>Оформление разрешительной документации</name>
+        <url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url>
+      </set>
+    </sets>
+
+    <offers>
+
+      <offer id="tw-001">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">3000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>29</categoryId>
+        <set-ids>treeworks-main,treeworks-spil</set-ids>
+        <picture>https://tree-works.ru/favicon.ico</picture>
+        <description>Спил и удаление деревьев в Санкт-Петербурге и Ленинградской области. Работаем в сложных условиях рядом с домами, заборами, проводами и другими объектами.</description>
+        <param name="Рейтинг">0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">10</param>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
+        <param name="Конверсия">1</param>
+        <param name="Ссылка на телефон">tel:+79657850055</param>
+        <param name="Ссылка на чат">https://t.me/Tree_Works</param>
+        <param name="Ссылка на профиль исполнителя">https://uslugi.yandex.ru/profile/MikhailSafronov-880224</param>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
+        <param name="Об исполнителе">Профессиональный арборист. Удаление, обрезка, диагностика и укрепление деревьев. Работаем с промышленным альпинизмом и профессиональным оборудованием.</param>
+        <param name="Другая услуга исполнителя - 1">Обрезка деревьев</param>
+        <param name="Другая услуга исполнителя - 2">Дробление пней</param>
+        <param name="Другая услуга исполнителя - 3">Каблинг деревьев</param>
+        <param name="Другая услуга исполнителя - 4">Расчистка участков</param>
+        <sales_notes>Цена зависит от высоты, диаметра, сложности доступа и объема работ</sales_notes>
+      </offer>
+
+      <offer id="tw-002">
+        <name>TreeWorks обрезка деревьев</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>29</categoryId>
+        <set-ids>treeworks-main,treeworks-obrezka</set-ids>
+        <picture>https://tree-works.ru/favicon.ico</picture>
+        <description>Санитарная, формирующая и сезонная обрезка деревьев. Удаление сухих ветвей, уход за кроной, снижение риска падения веток.</description>
+        <param name="Рейтинг">0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">10</param>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
+        <param name="Конверсия">1</param>
+        <param name="Ссылка на телефон">tel:+79657850055</param>
+        <param name="Ссылка на чат">https://t.me/Tree_Works</param>
+        <param name="Ссылка на профиль исполнителя">https://uslugi.yandex.ru/profile/MikhailSafronov-880224</param>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
+        <param name="Об исполнителе">Проводим санитарную, формирующую и корректирующую обрезку деревьев с учетом породы, сезона и состояния кроны.</param>
+        <sales_notes>Цена зависит от размера дерева и объема обрезки</sales_notes>
+      </offer>
+
+      <offer id="tw-003">
+        <name>TreeWorks дробление пней</name>
+        <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
+        <price from="true">1000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>29</categoryId>
+        <set-ids>treeworks-main,treeworks-pni</set-ids>
+        <picture>https://tree-works.ru/favicon.ico</picture>
+        <description>Дробление и удаление пней после спила дерева. Фрезеровка пней помогает аккуратно освободить участок без крупной ямы.</description>
+        <param name="Рейтинг">0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">10</param>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
+        <param name="Конверсия">1</param>
+        <param name="Ссылка на телефон">tel:+79657850055</param>
+        <param name="Ссылка на чат">https://t.me/Tree_Works</param>
+        <param name="Ссылка на профиль исполнителя">https://uslugi.yandex.ru/profile/MikhailSafronov-880224</param>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
+        <param name="Об исполнителе">Удаляем пни методом дробления. После работ участок можно готовить под газон, посадки или благоустройство.</param>
+        <sales_notes>Цена зависит от диаметра пня и условий доступа</sales_notes>
+      </offer>
+
+      <offer id="tw-004">
+        <name>TreeWorks расчистка участков</name>
+        <url>https://tree-works.ru/raschistka-uchastkov</url>
+        <price from="true">10000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>29</categoryId>
+        <set-ids>treeworks-main,treeworks-raschistka</set-ids>
+        <picture>https://tree-works.ru/favicon.ico</picture>
+        <description>Расчистка участков от деревьев, кустарника, поросли и пней. Подготовка территории под строительство, забор или благоустройство.</description>
+        <param name="Рейтинг">0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">10</param>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
+        <param name="Конверсия">1</param>
+        <param name="Ссылка на телефон">tel:+79657850055</param>
+        <param name="Ссылка на чат">https://t.me/Tree_Works</param>
+        <param name="Ссылка на профиль исполнителя">https://uslugi.yandex.ru/profile/MikhailSafronov-880224</param>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
+        <param name="Об исполнителе">Комплексная расчистка участков: удаление деревьев, кустарника, поросли, пней и порубочных остатков.</param>
+        <sales_notes>Цена рассчитывается по площади, объему работ и сложности доступа</sales_notes>
+      </offer>
+
+      <offer id="tw-005">
+        <name>TreeWorks каблинг деревьев</name>
+        <url>https://tree-works.ru/kabling</url>
+        <price from="true">4500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>29</categoryId>
+        <set-ids>treeworks-main,treeworks-kabling</set-ids>
+        <picture>https://tree-works.ru/favicon.ico</picture>
+        <description>Каблинг, брейсинг и укрепление деревьев. Устанавливаем системы стабилизации, чтобы снизить риск разлома кроны и сохранить дерево.</description>
+        <param name="Рейтинг">0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">10</param>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
+        <param name="Конверсия">1</param>
+        <param name="Ссылка на телефон">tel:+79657850055</param>
+        <param name="Ссылка на чат">https://t.me/Tree_Works</param>
+        <param name="Ссылка на профиль исполнителя">https://uslugi.yandex.ru/profile/MikhailSafronov-880224</param>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
+        <param name="Об исполнителе">Подбираем и монтируем системы стабилизации деревьев после осмотра. Используем каблинг, брейсинг и другие методы укрепления.</param>
+        <sales_notes>Цена указана за точку крепления без учета материалов</sales_notes>
+      </offer>
+
+      <offer id="tw-006">
+        <name>TreeWorks лечение деревьев</name>
+        <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
+        <price from="true">2000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>29</categoryId>
+        <set-ids>treeworks-main,treeworks-lechenie</set-ids>
+        <picture>https://tree-works.ru/favicon.ico</picture>
+        <description>Диагностика состояния деревьев, обработка от вредителей и грибковых заболеваний, профилактика и восстановление ослабленных деревьев.</description>
+        <param name="Рейтинг">0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">10</param>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
+        <param name="Конверсия">1</param>
+        <param name="Ссылка на телефон">tel:+79657850055</param>
+        <param name="Ссылка на чат">https://t.me/Tree_Works</param>
+        <param name="Ссылка на профиль исполнителя">https://uslugi.yandex.ru/profile/MikhailSafronov-880224</param>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
+        <param name="Об исполнителе">Проводим осмотр, обработку и профилактику заболеваний деревьев с учетом состояния растения и особенностей участка.</param>
+        <sales_notes>Стоимость зависит от вида обработки и состояния дерева</sales_notes>
+      </offer>
+
+      <offer id="tw-007">
+        <name>TreeWorks документы на спил</name>
+        <url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url>
+        <price from="true">5000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>29</categoryId>
+        <set-ids>treeworks-main,treeworks-docs</set-ids>
+        <picture>https://tree-works.ru/favicon.ico</picture>
+        <description>Помощь в оформлении разрешительной документации для законного спила, обрезки или вырубки деревьев. Консультации по согласованиям.</description>
+        <param name="Рейтинг">0</param>
+        <param name="Число отзывов">0</param>
+        <param name="Годы опыта">10</param>
+        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
+        <param name="Конверсия">1</param>
+        <param name="Ссылка на телефон">tel:+79657850055</param>
+        <param name="Ссылка на чат">https://t.me/Tree_Works</param>
+        <param name="Ссылка на профиль исполнителя">https://uslugi.yandex.ru/profile/MikhailSafronov-880224</param>
+        <param name="Исполнитель проверен">true</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
+        <param name="Об исполнителе">Консультируем по вопросам законного удаления деревьев и оформления разрешительной документации.</param>
+        <sales_notes>Стоимость зависит от объема консультации и необходимых документов</sales_notes>
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>
