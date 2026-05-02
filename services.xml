@@ -30,15 +30,16 @@
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
         <description>Спил и удаление деревьев. Профессиональный спил и удаление деревьев в Санкт-Петербурге и Ленинградской области. Работаем в сложных условиях: рядом с домами, заборами, проводами и другими объектами. Используем промышленный альпинизм.</description>
-        <adult>false</adult>
+        <!-- ОБЯЗАТЕЛЬНЫЕ ПАРАМЕТРЫ -->
         <param name="Рейтинг">5.0</param>
         <param name="Число отзывов">15</param>
         <param name="Годы опыта">10</param>
         <param name="Регион">Санкт-Петербург и Ленинградская область</param>
         <param name="Конверсия">1.5</param>
-        <param name="Выезд на дом">да</param>
-        <param name="Бригада">да</param>
-        <param name="Работа по договору">да</param>
+        <!-- ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ ПО СПРАВКЕ -->
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
         <param name="Ссылка на телефон">tel:+79657850055</param>
       </offer>
 
@@ -53,15 +54,14 @@
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3262-3963-4033-a639-343431343338/a090c7e3d38eca7f562aa03740f2298e.png</picture>
         <description>Обрезка и формирование кроны. Санитарная, формирующая и корректирующая обрезка деревьев. Удаляем сухие и поврежденные ветви, улучшаем состояние кроны и снижаем риск падения ветвей на участке.</description>
-        <adult>false</adult>
         <param name="Рейтинг">5.0</param>
         <param name="Число отзывов">15</param>
         <param name="Годы опыта">10</param>
         <param name="Регион">Санкт-Петербург и Ленинградская область</param>
         <param name="Конверсия">1.5</param>
-        <param name="Выезд на дом">да</param>
-        <param name="Бригада">да</param>
-        <param name="Работа по договору">да</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
       </offer>
 
       <!-- Услуга 3: Дробление пней -->
@@ -75,14 +75,14 @@
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3338-3162-4730-b765-393062373361/a1e4241ad783ad6e7a493cee58fe3f20.png</picture>
         <description>Дробление и удаление пней. Фрезеровка и удаление пней после спила дерева. Аккуратно измельчаем пень без сильного повреждения участка, газона и посадок. После работ место можно использовать под благоустройство.</description>
-        <adult>false</adult>
         <param name="Рейтинг">5.0</param>
         <param name="Число отзывов">15</param>
         <param name="Годы опыта">10</param>
         <param name="Регион">Санкт-Петербург и Ленинградская область</param>
         <param name="Конверсия">1.5</param>
-        <param name="Выезд на дом">да</param>
-        <param name="Бригада">да</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
       </offer>
 
       <!-- Услуга 4: Расчистка участков -->
@@ -96,14 +96,14 @@
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3464-3138-4633-a438-383239623137/5ae942dd5b0c924e78d364e8c0d857e0.png</picture>
         <description>Расчистка участков от деревьев. Комплексная расчистка участков от деревьев, кустарника, мелколесья, поросли и пней. Подготовка территории под строительство, установку забора или благоустройство.</description>
-        <adult>false</adult>
         <param name="Рейтинг">5.0</param>
         <param name="Число отзывов">15</param>
         <param name="Годы опыта">10</param>
         <param name="Регион">Санкт-Петербург и Ленинградская область</param>
         <param name="Конверсия">1.5</param>
-        <param name="Выезд на дом">да</param>
-        <param name="Бригада">да</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
+        <param name="Бригада">true</param>
       </offer>
 
       <!-- Услуга 5: Лечение деревьев -->
@@ -117,13 +117,13 @@
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3535-3733-4663-b263-326537343731/eb7412e4538365038a4a66884f470cc0.jpg</picture>
         <description>Лечение и обработка деревьев. Диагностика состояния деревьев, обработка от вредителей и болезней, профилактика грибковых поражений и восстановление ослабленных деревьев на участке.</description>
-        <adult>false</adult>
         <param name="Рейтинг">5.0</param>
         <param name="Число отзывов">15</param>
         <param name="Годы опыта">10</param>
         <param name="Регион">Санкт-Петербург и Ленинградская область</param>
         <param name="Конверсия">1.5</param>
-        <param name="Выезд на дом">да</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
       </offer>
 
       <!-- Услуга 6: Каблинг -->
@@ -137,13 +137,13 @@
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor6138-3666-4966-b733-333535363831/0ec4ba849476a6213c7550605d77fd65.png</picture>
         <description>Каблинг и укрепление деревьев. Устанавливаем системы стабилизации и ветрозащиты (каблинг, брейсинг), чтобы снизить риск разлома кроны и сохранить ценные деревья.</description>
-        <adult>false</adult>
         <param name="Рейтинг">5.0</param>
         <param name="Число отзывов">15</param>
         <param name="Годы опыта">10</param>
         <param name="Регион">Санкт-Петербург и Ленинградская область</param>
         <param name="Конверсия">1.5</param>
-        <param name="Выезд на дом">да</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется по адресу заказчика">true</param>
       </offer>
 
       <!-- Услуга 7: Документы -->
@@ -157,13 +157,13 @@
         <set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3561-6138-4639-a236-343762353766/f7447d51feedd5f2418bb61a80ee6188.jpg</picture>
         <description>Документы на спил деревьев. Помощь в оформлении разрешительной документации для законного спила, обрезки или вырубки деревьев. Консультации по порубочным билетам и согласованиям.</description>
-        <adult>false</adult>
         <param name="Рейтинг">5.0</param>
         <param name="Число отзывов">15</param>
         <param name="Годы опыта">10</param>
         <param name="Регион">Санкт-Петербург и Ленинградская область</param>
         <param name="Конверсия">1.5</param>
-        <param name="Выезд на дом">нет</param>
+        <param name="Организация">true</param>
+        <param name="Выполняется удаленно">true</param>
       </offer>
     </offers>
   </shop>
