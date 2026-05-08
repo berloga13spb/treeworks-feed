@@ -8,186 +8,416 @@
       <currency id="RUR" rate="1"/>
     </currencies>
     
-    <!-- Категория (оставляем общую) -->
     <categories>
       <category id="1">Услуги арбористов</category>
     </categories>
     
-    <!-- СЕТЫ: Создаем отдельный сет для каждой услуги -->
     <sets>
-      <set id="set-spil">
-        <name>Спил и удаление деревьев</name>
-        <url>https://tree-works.ru/spil-derevev</url>
-      </set>
-      <set id="set-obrezka">
-        <name>Обрезка и формирование кроны</name>
-        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
-      </set>
-      <set id="set-pni">
-        <name>Дробление и удаление пней</name>
-        <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
-      </set>
-      <set id="set-raschistka">
-        <name>Расчистка участков</name>
-        <url>https://tree-works.ru/raschistka-uchastkov</url>
-      </set>
-      <set id="set-lechenie">
-        <name>Лечение и обработка деревьев</name>
-        <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
-      </set>
-      <set id="set-kabling">
-        <name>Каблинг и укрепление</name>
-        <url>https://tree-works.ru/kabling</url>
-      </set>
-      <set id="set-docs">
-        <name>Оформление документов</name>
-        <url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url>
-      </set>
+      <!-- Сеты для спила (1-10) -->
+      <set id="s1"><name>Спил аварийных деревьев</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s2"><name>Валка деревьев целиком</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s3"><name>Спил деревьев по частям</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s4"><name>Спил деревьев на кладбище</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s5"><name>Спил сложных деревьев (рядом с проводами)</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s6"><name>Удаление сухих деревьев (сухостоя)</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s7"><name>Вырубка деревьев на участке</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s8"><name>Спил сосны на участке</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s9"><name>Спил березы</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <set id="s10"><name>Валка деревьев с оттяжкой</name><url>https://tree-works.ru/spil-derevev</url></set>
+      <!-- Сеты для обрезки (11-16) -->
+      <set id="s11"><name>Санитарная обрезка деревьев</name><url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url></set>
+      <set id="s12"><name>Кронирование (формовочная обрезка)</name><url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url></set>
+      <set id="s13"><name>Омолаживающая обрезка</name><url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url></set>
+      <set id="s14"><name>Спил сухих и опасных веток</name><url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url></set>
+      <set id="s15"><name>Обрезка плодовых деревьев</name><url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url></set>
+      <set id="s16"><name>Обрезка яблонь</name><url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url></set>
+      <!-- Сеты для пней (17-20) -->
+      <set id="s17"><name>Дробление пней пнедробилкой</name><url>https://tree-works.ru/droblenie-i-udalenie-pnej</url></set>
+      <set id="s18"><name>Удаление пней без корчевания</name><url>https://tree-works.ru/droblenie-i-udalenie-pnej</url></set>
+      <set id="s19"><name>Фрезеровка пней</name><url>https://tree-works.ru/droblenie-i-udalenie-pnej</url></set>
+      <set id="s20"><name>Уничтожение пней на участке</name><url>https://tree-works.ru/droblenie-i-udalenie-pnej</url></set>
+      <!-- Сеты для расчистки (21-24) -->
+      <set id="s21"><name>Расчистка участка под строительство</name><url>https://tree-works.ru/raschistka-uchastkov</url></set>
+      <set id="s22"><name>Вырубка кустарника и мелколесья</name><url>https://tree-works.ru/raschistka-uchastkov</url></set>
+      <set id="s23"><name>Расчистка заросших участков</name><url>https://tree-works.ru/raschistka-uchastkov</url></set>
+      <set id="s24"><name>Подготовка участка к продаже</name><url>https://tree-works.ru/raschistka-uchastkov</url></set>
+      <!-- Сеты для лечения (25-27) -->
+      <set id="s25"><name>Лечение деревьев от короеда</name><url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url></set>
+      <set id="s26"><name>Обработка деревьев от вредителей</name><url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url></set>
+      <set id="s27"><name>Лечение болезней хвойных деревьев</name><url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url></set>
+      <!-- Сеты для каблинга (28-29) -->
+      <set id="s28"><name>Укрепление деревьев (каблинг)</name><url>https://tree-works.ru/kabling</url></set>
+      <set id="s29"><name>Стяжка стволов деревьев (брейсинг)</name><url>https://tree-works.ru/kabling</url></set>
+      <!-- Сеты для документов (30) -->
+      <set id="s30"><name>Оформление порубочного билета</name><url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url></set>
     </sets>
     
     <offers>
-      <!-- Услуга 1 -->
-      <offer id="tw-spil">
+      <!-- ================= СПИЛ ДЕРЕВЬЕВ ================= -->
+      <offer id="o1">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/spil-derevev</url>
         <price from="true">3000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>за дерево</sales_notes>
-        <categoryId>1</categoryId>
-        <set-ids>set-spil</set-ids> <!-- Привязка к уникальному сету -->
+        <categoryId>1</categoryId><set-ids>s1</set-ids>
         <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
-        <description>Спил и удаление деревьев. Профессиональный спил и удаление деревьев в Санкт-Петербурге и Ленинградской области. Работаем в сложных условиях: рядом с домами, заборами, проводами и другими объектами.</description>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">15</param>
-        <param name="Годы опыта">10</param>
-        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-        <param name="Конверсия">1.5</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу заказчика">true</param>
-        <param name="Бригада">true</param>
+        <description>Спил аварийных деревьев любой сложности. Аккуратно удалим надломленные, зависшие или гнилые деревья без повреждения имущества на участке.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
       </offer>
 
-      <!-- Услуга 2 -->
-      <offer id="tw-obrezka">
+      <offer id="o2">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">2500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s2</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Валка деревьев целиком с использованием естественного наклона ствола. Самый быстрый и бюджетный способ при наличии свободного места на участке.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o3">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">4000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s3</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Спил деревьев по частям с завешиванием. Арбористы спиливают ствол фрагментами и аккуратно спускают их на веревках, сохраняя газон, забор и постройки.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o4">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">5000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s4</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Спил деревьев на кладбище. Ювелирная работа альпинистов в стесненных условиях. Гарантируем сохранность памятников и оград.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o5">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">4500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s5</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Спил сложных деревьев рядом с проводами ЛЭП, крышами и заборами. Используем технологию промышленного альпинизма без привлечения автовышки.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o6">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">3000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s6</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Удаление сухих деревьев (сухостоя), погибших от короеда или болезней. Предотвращаем риск внезапного падения мертвого ствола.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o7">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">3000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за услугу</sales_notes>
+        <categoryId>1</categoryId><set-ids>s7</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Вырубка мешающих деревьев на частных участках. Полный комплекс: спил, распиловка на дрова, вывоз порубочных остатков.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o8">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">3500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s8</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Профессиональный спил сосны любой высоты. Удаляем деревья с раздвоенными стволами, большим наклоном и раскидистой кроной.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o9">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">3500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s9</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Спил старой березы на участке. Учитываем хрупкость древесины при удалении, работаем со страховкой и спецснаряжением.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o10">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/spil-derevev</url>
+        <price from="true">3000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s10</set-ids>
+        <picture>https://static.tildacdn.com/stor3430-3836-4235-a333-373735353865/14d3c893db97f1631218404bd6ff08dd.png</picture>
+        <description>Валка деревьев с использованием оттяжки. Задаем точное направление падения ствола с помощью лебедки и веревок.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <!-- ================= ОБРЕЗКА ================= -->
+      <offer id="o11">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
         <price from="true">1500</price>
         <currencyId>RUR</currencyId>
         <sales_notes>за дерево</sales_notes>
-        <categoryId>1</categoryId>
-        <set-ids>set-obrezka</set-ids> <!-- Привязка к уникальному сету -->
+        <categoryId>1</categoryId><set-ids>s11</set-ids>
         <picture>https://static.tildacdn.com/stor3262-3963-4033-a639-343431343338/a090c7e3d38eca7f562aa03740f2298e.png</picture>
-        <description>Обрезка и формирование кроны. Санитарная, формирующая и корректирующая обрезка деревьев. Удаляем сухие и поврежденные ветви, улучшаем состояние кроны и снижаем риск падения ветвей на участке.</description>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">15</param>
-        <param name="Годы опыта">10</param>
-        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-        <param name="Конверсия">1.5</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу заказчика">true</param>
-        <param name="Бригада">true</param>
+        <description>Санитарная обрезка деревьев. Удаляем больные, сломанные, трущиеся и усыхающие ветви для оздоровления кроны.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
       </offer>
 
-      <!-- Услуга 3 -->
-      <offer id="tw-pni">
+      <offer id="o12">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+        <price from="true">2000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s12</set-ids>
+        <picture>https://static.tildacdn.com/stor3262-3963-4033-a639-343431343338/a090c7e3d38eca7f562aa03740f2298e.png</picture>
+        <description>Кронирование и формовочная обрезка. Придаем кроне эстетичную форму, снижаем парусность и уменьшаем высоту дерева.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o13">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+        <price from="true">2500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s13</set-ids>
+        <picture>https://static.tildacdn.com/stor3262-3963-4033-a639-343431343338/a090c7e3d38eca7f562aa03740f2298e.png</picture>
+        <description>Омолаживающая обрезка старых деревьев (топпинг). Глубокая обрезка для стимулирования роста новых молодых побегов.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o14">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за услугу</sales_notes>
+        <categoryId>1</categoryId><set-ids>s14</set-ids>
+        <picture>https://static.tildacdn.com/stor3262-3963-4033-a639-343431343338/a090c7e3d38eca7f562aa03740f2298e.png</picture>
+        <description>Спил сухих и опасных веток. Альпинисты удаляют нависающие ветки над крышей, проводами и парковкой.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o15">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s15</set-ids>
+        <picture>https://static.tildacdn.com/stor3262-3963-4033-a639-343431343338/a090c7e3d38eca7f562aa03740f2298e.png</picture>
+        <description>Сезонная обрезка плодовых деревьев. Формируем правильный скелет кроны для повышения урожайности и здоровья сада.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o16">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/obrezka-i-formirovanie-krony-derevev</url>
+        <price from="true">1500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s16</set-ids>
+        <picture>https://static.tildacdn.com/stor3262-3963-4033-a639-343431343338/a090c7e3d38eca7f562aa03740f2298e.png</picture>
+        <description>Профессиональная обрезка яблонь (осенняя и весенняя). Удаляем волчки, прореживаем крону, омолаживаем старые деревья.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <!-- ================= ПНИ ================= -->
+      <offer id="o17">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>в зависимости от диаметра</sales_notes>
-        <categoryId>1</categoryId>
-        <set-ids>set-pni</set-ids> <!-- Привязка к уникальному сету -->
+        <categoryId>1</categoryId><set-ids>s17</set-ids>
         <picture>https://static.tildacdn.com/stor3338-3162-4730-b765-393062373361/a1e4241ad783ad6e7a493cee58fe3f20.png</picture>
-        <description>Дробление и удаление пней. Фрезеровка и удаление пней после спила дерева. Аккуратно измельчаем пень без сильного повреждения участка, газона и посадок. После работ место можно использовать под благоустройство.</description>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">15</param>
-        <param name="Годы опыта">10</param>
-        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-        <param name="Конверсия">1.5</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу заказчика">true</param>
-        <param name="Бригада">true</param>
+        <description>Дробление пней профессиональной пнедробилкой. Быстро измельчаем пень на глубину до 20-30 см ниже уровня земли.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
       </offer>
 
-      <!-- Услуга 4 -->
-      <offer id="tw-raschistka">
+      <offer id="o18">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
+        <price from="true">1000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за пень</sales_notes>
+        <categoryId>1</categoryId><set-ids>s18</set-ids>
+        <picture>https://static.tildacdn.com/stor3338-3162-4730-b765-393062373361/a1e4241ad783ad6e7a493cee58fe3f20.png</picture>
+        <description>Удаление пней без корчевания. Сохраняем ландшафт, газон и корневую систему соседних растений благодаря методу фрезерования.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o19">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
+        <price from="true">1000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за пень</sales_notes>
+        <categoryId>1</categoryId><set-ids>s19</set-ids>
+        <picture>https://static.tildacdn.com/stor3338-3162-4730-b765-393062373361/a1e4241ad783ad6e7a493cee58fe3f20.png</picture>
+        <description>Фрезеровка пней после спила деревьев. Компактная техника проедет в любую калитку, не портит дорожки на участке.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o20">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/droblenie-i-udalenie-pnej</url>
+        <price from="true">1000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за пень</sales_notes>
+        <categoryId>1</categoryId><set-ids>s20</set-ids>
+        <picture>https://static.tildacdn.com/stor3338-3162-4730-b765-393062373361/a1e4241ad783ad6e7a493cee58fe3f20.png</picture>
+        <description>Полное уничтожение пней на участке. После работ остается только древесная щепа, место можно использовать под грядки или газон.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <!-- ================= РАСЧИСТКА ================= -->
+      <offer id="o21">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/raschistka-uchastkov</url>
         <price from="true">10000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>за сотку</sales_notes>
-        <categoryId>1</categoryId>
-        <set-ids>set-raschistka</set-ids> <!-- Привязка к уникальному сету -->
+        <categoryId>1</categoryId><set-ids>s21</set-ids>
         <picture>https://static.tildacdn.com/stor3464-3138-4633-a438-383239623137/5ae942dd5b0c924e78d364e8c0d857e0.png</picture>
-        <description>Расчистка участков от деревьев. Комплексная расчистка участков от деревьев, кустарника, мелколесья, поросли и пней. Подготовка территории под строительство, установку забора или благоустройство.</description>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">15</param>
-        <param name="Годы опыта">10</param>
-        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-        <param name="Конверсия">1.5</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу заказчика">true</param>
-        <param name="Бригада">true</param>
+        <description>Комплексная расчистка участка под строительство. Спилим деревья, удалим пни, вывезем порубочные остатки.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
       </offer>
 
-      <!-- Услуга 5 -->
-      <offer id="tw-lechenie">
+      <offer id="o22">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/raschistka-uchastkov</url>
+        <price from="true">8000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за сотку</sales_notes>
+        <categoryId>1</categoryId><set-ids>s22</set-ids>
+        <picture>https://static.tildacdn.com/stor3464-3138-4633-a438-383239623137/5ae942dd5b0c924e78d364e8c0d857e0.png</picture>
+        <description>Вырубка кустарника, поросли и мелколесья. Освободим заброшенную территорию от диких зарослей.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o23">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/raschistka-uchastkov</url>
+        <price from="true">10000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за сотку</sales_notes>
+        <categoryId>1</categoryId><set-ids>s23</set-ids>
+        <picture>https://static.tildacdn.com/stor3464-3138-4633-a438-383239623137/5ae942dd5b0c924e78d364e8c0d857e0.png</picture>
+        <description>Расчистка лесных и сильно заросших участков. Работаем бригадой с использованием бензоинструмента и спецтехники.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o24">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/raschistka-uchastkov</url>
+        <price from="true">10000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за сотку</sales_notes>
+        <categoryId>1</categoryId><set-ids>s24</set-ids>
+        <picture>https://static.tildacdn.com/stor3464-3138-4633-a438-383239623137/5ae942dd5b0c924e78d364e8c0d857e0.png</picture>
+        <description>Подготовка участка к продаже. Приведем территорию в ухоженный вид, удалим аварийные деревья и бурьян.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <!-- ================= ЛЕЧЕНИЕ ================= -->
+      <offer id="o25">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
         <price from="true">2000</price>
         <currencyId>RUR</currencyId>
-        <sales_notes>в зависимости от состояния</sales_notes>
-        <categoryId>1</categoryId>
-        <set-ids>set-lechenie</set-ids> <!-- Привязка к уникальному сету -->
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s25</set-ids>
         <picture>https://static.tildacdn.com/stor3535-3733-4663-b263-326537343731/eb7412e4538365038a4a66884f470cc0.jpg</picture>
-        <description>Лечение и обработка деревьев. Диагностика состояния деревьев, обработка от вредителей и болезней, профилактика грибковых поражений и восстановление ослабленных деревьев на участке.</description>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">15</param>
-        <param name="Годы опыта">10</param>
-        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-        <param name="Конверсия">1.5</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу заказчика">true</param>
+        <description>Лечение и защита хвойных деревьев от короеда-типографа. Стволовые инъекции и поверхностная обработка.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
       </offer>
 
-      <!-- Услуга 6 -->
-      <offer id="tw-kabling">
+      <offer id="o26">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
+        <price from="true">2000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s26</set-ids>
+        <picture>https://static.tildacdn.com/stor3535-3733-4663-b263-326537343731/eb7412e4538365038a4a66884f470cc0.jpg</picture>
+        <description>Сезонная обработка деревьев от вредителей и болезней. Опрыскивание крон инсектицидами и фунгицидами.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <offer id="o27">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/lechenie-i-obrabotka-derevev-pnej</url>
+        <price from="true">2000</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за дерево</sales_notes>
+        <categoryId>1</categoryId><set-ids>s27</set-ids>
+        <picture>https://static.tildacdn.com/stor3535-3733-4663-b263-326537343731/eb7412e4538365038a4a66884f470cc0.jpg</picture>
+        <description>Лечение болезней хвойных и лиственных деревьев. Зачистка дупел, лечение ран, антисептическая обработка.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <!-- ================= КАБЛИНГ ================= -->
+      <offer id="o28">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/kabling</url>
         <price from="true">4500</price>
         <currencyId>RUR</currencyId>
         <sales_notes>за точку крепления</sales_notes>
-        <categoryId>1</categoryId>
-        <set-ids>set-kabling</set-ids> <!-- Привязка к уникальному сету -->
+        <categoryId>1</categoryId><set-ids>s28</set-ids>
         <picture>https://static.tildacdn.com/stor6138-3666-4966-b733-333535363831/0ec4ba849476a6213c7550605d77fd65.png</picture>
-        <description>Каблинг и укрепление деревьев. Устанавливаем системы стабилизации и ветрозащиты (каблинг, брейсинг), чтобы снизить риск разлома кроны и сохранить ценные деревья.</description>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">15</param>
-        <param name="Годы опыта">10</param>
-        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-        <param name="Конверсия">1.5</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется по адресу заказчика">true</param>
+        <description>Укрепление крон деревьев (каблинг). Установка эластичных тросов для предотвращения разлома ветвей при сильном ветре.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
       </offer>
 
-      <!-- Услуга 7 -->
-      <offer id="tw-docs">
+      <offer id="o29">
+        <name>Арбористы TreeWorks</name>
+        <url>https://tree-works.ru/kabling</url>
+        <price from="true">4500</price>
+        <currencyId>RUR</currencyId>
+        <sales_notes>за услугу</sales_notes>
+        <categoryId>1</categoryId><set-ids>s29</set-ids>
+        <picture>https://static.tildacdn.com/stor6138-3666-4966-b733-333535363831/0ec4ba849476a6213c7550605d77fd65.png</picture>
+        <description>Стяжка раздвоенных стволов деревьев (брейсинг). Жесткая фиксация аварийных стволов для продления жизни дерева.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется по адресу заказчика">true</param><param name="Бригада">true</param>
+      </offer>
+
+      <!-- ================= ДОКУМЕНТЫ ================= -->
+      <offer id="o30">
         <name>Арбористы TreeWorks</name>
         <url>https://tree-works.ru/oformlenie-razreshitelnoj-dokumentaczii</url>
         <price from="true">5000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>за услугу</sales_notes>
-        <categoryId>1</categoryId>
-        <set-ids>set-docs</set-ids> <!-- Привязка к уникальному сету -->
+        <categoryId>1</categoryId><set-ids>s30</set-ids>
         <picture>https://static.tildacdn.com/stor3561-6138-4639-a236-343762353766/f7447d51feedd5f2418bb61a80ee6188.jpg</picture>
-        <description>Документы на спил деревьев. Помощь в оформлении разрешительной документации для законного спила, обрезки или вырубки деревьев. Консультации по порубочным билетам и согласованиям.</description>
-        <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">15</param>
-        <param name="Годы опыта">10</param>
-        <param name="Регион">Санкт-Петербург и Ленинградская область</param>
-        <param name="Конверсия">1.5</param>
-        <param name="Организация">true</param>
-        <param name="Выполняется удаленно">true</param>
+        <description>Помощь в оформлении порубочного билета. Подготовим документы для законного спила деревьев в Ленинградской области.</description>
+        <param name="Рейтинг">5.0</param><param name="Число отзывов">15</param><param name="Годы опыта">10</param><param name="Регион">Санкт-Петербург и Ленобласть</param><param name="Конверсия">1.5</param><param name="Организация">true</param><param name="Выполняется удаленно">true</param>
       </offer>
     </offers>
   </shop>
